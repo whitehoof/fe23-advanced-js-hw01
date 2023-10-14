@@ -27,9 +27,9 @@ class Employee {
 class Programmer extends Employee {
 	
 	constructor(	name = new String, 
-		age = new Number, 
-		salary = new Number, 
-		lang = new Array) {
+					age = new Number, 
+					salary = new Number, 
+					lang = new Array) {
 			super(name, age, salary);
 			this.lang = lang
 		}
